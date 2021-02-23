@@ -56,6 +56,10 @@
   }
 }
 
+#diptych-wrapper {
+  margin: 0 1em 0 1em;
+}
+
 #diptych {
   display: flex;
 }
