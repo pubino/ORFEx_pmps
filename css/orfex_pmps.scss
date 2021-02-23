@@ -63,7 +63,11 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 }
 
 #diptych-wrapper {
-	margin: 0 2em 0 2em;
+	margin: 0 auto;
+	max-width: 75%;
+	@media (max-width: 62em) {
+		max-width: 100%;
+	}
 }
 
 #diptych {

@@ -57,7 +57,13 @@
 }
 
 #diptych-wrapper {
-  margin: 0 2em 0 2em;
+  margin: 0 auto;
+  max-width: 75%;
+}
+@media (max-width: 62em) {
+  #diptych-wrapper {
+    max-width: 100%;
+  }
 }
 
 #diptych {
