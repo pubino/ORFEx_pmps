@@ -4,8 +4,6 @@ core = 7.x
 base theme = ORFEx
 
 stylesheets[all][] = css/orfex_pmps.css
-stylesheets[all][] = css/colors.css
-stylesheets[print][] = css/orfex_pmps_print.css
 
 regions[branding] = Branding
 regions[header] = Header
