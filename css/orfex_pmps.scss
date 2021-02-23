@@ -12,7 +12,16 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 		font-size: 1.25em;
 	}
 	
-	#name-and-slogan { 
+	#name-and-slogan {
+		text-align: center;
+		float: none;
+		padding: 0;
+		margin: 0;
+		@media (min-width: 901px){
+			padding: 0;
+			margin: 0;
+		}
+	
 		a, #site-slogan {
 			color: black;
 		}
@@ -20,11 +29,6 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 			line-height: 1.4em;
 			}
 		}
-		@media (min-width: 851px) {
-	div.section {
-		max-width: reset;
-	}	
-}
 }
 
 .postponed {
