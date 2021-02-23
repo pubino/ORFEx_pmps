@@ -21,9 +21,11 @@
 #header #name-and-slogan a, #header #name-and-slogan #site-slogan {
   color: black;
 }
+#header #name-and-slogan #site-name {
+  border-bottom: 10px solid #D77D42;
+}
 #header #name-and-slogan #site-name a {
   line-height: 1.4em;
-  border-bottom: 10px solid #D77D42;
 }
 
 .postponed {
