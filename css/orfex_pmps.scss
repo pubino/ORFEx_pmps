@@ -1,23 +1,9 @@
-// Font Import
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
-// Variables
-/* $orfe-font: 'Oxygen', sans-serif; */
 $orfe_conference_font: "Open Sans", sans-serif;
 $breakpoint: 850px;
 $orfe_conference_sitewidth: 1280px;
 $orfe_conference_header_font: "Oswald", sans-serif;
-
-body.one-sidebar.sidebar-first {
-@media screen and (min-width: 851px){ #content {
-margin-left: 19%;
-}
-}
-}
-
-.sidebar .section {
-padding: 1em 0 0 0;
-}
 
 body { /* Begin body */
 

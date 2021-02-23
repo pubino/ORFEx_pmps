@@ -1,15 +1,4 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
-/* $orfe-font: 'Oxygen', sans-serif; */
-@media screen and (min-width: 851px) {
-  body.one-sidebar.sidebar-first #content {
-    margin-left: 19%;
-  }
-}
-
-.sidebar .section {
-  padding: 1em 0 0 0;
-}
-
 body {
   /* Begin body */
   font-family: "Open Sans", sans-serif;
