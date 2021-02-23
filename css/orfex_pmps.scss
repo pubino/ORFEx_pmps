@@ -58,3 +58,16 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 	}
 }
 
+#diptych {
+	display: flex;
+	@media (max-width: 62em) {
+		flex-flow: column;
+	}
+	.region {
+		flex-basis: 50%;
+		@media (max-width: 62em) {
+			flex-basis: 100%;
+		}
+	}
+
+}

@@ -56,4 +56,21 @@
   }
 }
 
+#diptych {
+  display: flex;
+}
+@media (max-width: 62em) {
+  #diptych {
+    flex-flow: column;
+  }
+}
+#diptych .region {
+  flex-basis: 50%;
+}
+@media (max-width: 62em) {
+  #diptych .region {
+    flex-basis: 100%;
+  }
+}
+
 /*# sourceMappingURL=orfex_pmps.css.map */
