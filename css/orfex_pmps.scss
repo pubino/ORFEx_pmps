@@ -7,7 +7,7 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 
 #header {
 	background-image: none;
-	padding: 0;
+	padding: 1em;
 	#site-slogan {
 		font-size: 1.25em;
 	}
@@ -27,6 +27,7 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 		}
 		#site-name a {
 			line-height: 1.4em;
+			border-bottom: 10px solid #D77D42;
 			}
 		}
 }
