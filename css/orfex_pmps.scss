@@ -78,6 +78,7 @@ color: rgba(96, 84, 69, 0.97);
 	display: flex;
 	@media (max-width: 62em) {
 		flex-flow: column;
+		align-items: center;		
 	}
 	.region {
 		flex-basis: 50%;

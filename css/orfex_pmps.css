@@ -76,6 +76,7 @@
 @media (max-width: 62em) {
   #diptych {
     flex-flow: column;
+    align-items: center;
   }
 }
 #diptych .region {
