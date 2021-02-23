@@ -27,6 +27,7 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 		}
 		#site-name {
 			border-bottom: 10px solid #D77D42;
+			text-align: center;
 			 a {
 				line-height: 1.4em;
 				}
@@ -41,5 +42,13 @@ $orfe_conference_header_font: "Oswald", sans-serif;
 
 .primary.menu {
 	background-color: rgba(82, 83, 85, 0.45);
+}
+
+#primary_triptych {
+	display: flex;
+	text-align: center;
+	.region {
+		flex-basis: 33%;
+	}
 }
 

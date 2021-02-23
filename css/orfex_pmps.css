@@ -23,6 +23,7 @@
 }
 #header #name-and-slogan #site-name {
   border-bottom: 10px solid #D77D42;
+  text-align: center;
 }
 #header #name-and-slogan #site-name a {
   line-height: 1.4em;
@@ -35,6 +36,14 @@
 
 .primary.menu {
   background-color: rgba(82, 83, 85, 0.45);
+}
+
+#primary_triptych {
+  display: flex;
+  text-align: center;
+}
+#primary_triptych .region {
+  flex-basis: 33%;
 }
 
 /*# sourceMappingURL=orfex_pmps.css.map */
