@@ -87,4 +87,15 @@
   }
 }
 
+#footer-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 62em) {
+  #footer-columns {
+    flex-flow: column;
+  }
+}
+
 /*# sourceMappingURL=orfex_pmps.css.map */

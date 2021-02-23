@@ -87,3 +87,12 @@ color: rgba(96, 84, 69, 0.97);
 	}
 
 }
+
+#footer-columns {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media (max-width: 62em) {
+		flex-flow: column;
+	}
+}
