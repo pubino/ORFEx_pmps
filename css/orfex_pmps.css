@@ -42,8 +42,18 @@
   display: flex;
   text-align: center;
 }
+@media (max-width: 62em) {
+  #primary_triptych {
+    flex-flow: column;
+  }
+}
 #primary_triptych .region {
   flex-basis: 33%;
+}
+@media (max-width: 62em) {
+  #primary_triptych .region {
+    flex-basis: 100%;
+  }
 }
 
 /*# sourceMappingURL=orfex_pmps.css.map */
