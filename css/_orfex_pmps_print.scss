@@ -1,0 +1,54 @@
+body {
+
+a {
+color: black;
+}
+
+.views-field-field-duration {
+white-space: nowrap;
+}
+
+.title {
+margin: 0;
+}
+
+#page-wrapper {
+margin: 0.25em;
+}
+
+#header {
+margin-bottom: 0;
+min-height: unset;
+}
+
+#header #name-and-slogan {
+margin: 0;
+#site-slogan {
+font-size:1em;
+margin:0;
+display:none;
+}
+#site-name a {
+margin: 0;
+font-size: 1.5em;
+border-bottom: none;
+}
+}
+
+#headerwell, #footer-wrapper {
+display:none;
+}
+
+#headerwell #block-main-menu-block {
+padding: 0;
+}
+
+#main-wrapper #main #content {
+margin: 0;
+h1 {
+margin-bottom: 0;
+font-size: 20px;
+}
+}
+
+}

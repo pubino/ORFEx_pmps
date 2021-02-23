@@ -1,0 +1,45 @@
+name = ORFEx_pmps
+description = A subtheme of ORFEx, which is in turn a subtheme of Responsive Bartik, which is a flexible, recolorable theme with many regions.
+core = 7.x
+base theme = ORFEx
+
+stylesheets[all][] = css/orfex_pmps.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/orfex_pmps_print.css
+
+regions[branding] = Branding
+regions[header] = Header
+regions[headerwell] = Header Well
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[preface] = Content Preface
+
+regions[primary_triptych_first] = Primary Triptych first
+regions[primary_triptych_middle] = Primary Triptych middle
+regions[primary_triptych_last] = Primary Triptych last
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[mainwell] = Main Well
+
+regions[diptych_first] = Diptych first
+regions[diptych_second]= Diptych second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer_fifthcolumn] = Footer fifth column
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0
