@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 .menu a.active {
-  color: rgba(96, 84, 69, 0.97);
+  color: lightgray;
 }
 
 #header {
